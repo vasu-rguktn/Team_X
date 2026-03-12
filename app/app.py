@@ -121,7 +121,7 @@ model     = load_model()
 explainer = load_explainer(model)
 
 # ── Header ────────────────────────────────────────────────────
-st.markdown('<div class="main-title">⚡ Building Energy Predictor</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">⚡ Building Energy Consumption Predictor</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Explainable AI-powered energy audit system for buildings worldwide</div>', unsafe_allow_html=True)
 
 # ── Tabs ──────────────────────────────────────────────────────
